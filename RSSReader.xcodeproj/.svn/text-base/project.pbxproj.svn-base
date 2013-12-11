@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A92AABA17E73F78007EB8D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A92AAB917E73F78007EB8D9 /* UIKit.framework */; };
+		8A92AABC17E73F78007EB8D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A92AABB17E73F78007EB8D9 /* Foundation.framework */; };
+		8A92AABE17E73F78007EB8D9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A92AABD17E73F78007EB8D9 /* CoreGraphics.framework */; };
+		8A92AAC417E73F78007EB8D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A92AAC217E73F78007EB8D9 /* InfoPlist.strings */; };
+		8A92AAC617E73F78007EB8D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A92AAC517E73F78007EB8D9 /* main.m */; };
+		8A92AACA17E73F78007EB8D9 /* RRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A92AAC917E73F78007EB8D9 /* RRAppDelegate.m */; };
+		8A92AACC17E73F78007EB8D9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A92AACB17E73F78007EB8D9 /* Default.png */; };
+		8A92AACE17E73F78007EB8D9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A92AACD17E73F78007EB8D9 /* Default@2x.png */; };
+		8A92AAD017E73F78007EB8D9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A92AACF17E73F78007EB8D9 /* Default-568h@2x.png */; };
+		8A92AAD917E73F78007EB8D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A92AAB917E73F78007EB8D9 /* UIKit.framework */; };
+		8A92AADA17E73F78007EB8D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A92AABB17E73F78007EB8D9 /* Foundation.framework */; };
+		8A92AAE217E73F79007EB8D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A92AAE017E73F79007EB8D9 /* InfoPlist.strings */; };
+		8A92AAE517E73F79007EB8D9 /* NewsListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A92AAE417E73F79007EB8D9 /* NewsListTests.m */; };
+		8A92AAF417E74140007EB8D9 /* RRNewsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A92AAF217E74140007EB8D9 /* RRNewsList.m */; };
+		8A92AAF517E74140007EB8D9 /* RRNewsList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A92AAF317E74140007EB8D9 /* RRNewsList.xib */; };
+		8A92AAF617E74229007EB8D9 /* RRNewsList.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A92AAF217E74140007EB8D9 /* RRNewsList.m */; };
+		8A92AAF717E74243007EB8D9 /* RRNewsList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A92AAF317E74140007EB8D9 /* RRNewsList.xib */; };
+		8A92AAFA17E74971007EB8D9 /* RRDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A92AAF917E74971007EB8D9 /* RRDataService.m */; };
+		8A92AAFD17E74995007EB8D9 /* RRWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A92AAFC17E74995007EB8D9 /* RRWebService.m */; };
+		8A92AB0317E749FB007EB8D9 /* RRXMLDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A92AB0217E749FB007EB8D9 /* RRXMLDataParser.m */; };
+		8A92AB0517E74E41007EB8D9 /* OCMockitoIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A92AB0417E74E41007EB8D9 /* OCMockitoIOS.framework */; };
+		8A92AB0717E8565F007EB8D9 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A92AB0617E8565F007EB8D9 /* OCHamcrestIOS.framework */; };
+		8A92AB0A17E85BEA007EB8D9 /* DataServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A92AB0917E85BEA007EB8D9 /* DataServiceTests.m */; };
+		8A93600717EC2D8D006884A3 /* RRBaseDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93600617EC2D8D006884A3 /* RRBaseDataService.m */; };
+		8A93600E17EC312D006884A3 /* FakeDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93600D17EC312D006884A3 /* FakeDataService.m */; };
+		8A9ED40F17EC86CC00885935 /* RRNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9ED40D17EC86CC00885935 /* RRNewsCell.m */; };
+		8A9ED41017EC86CC00885935 /* RRNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A9ED40E17EC86CC00885935 /* RRNewsCell.xib */; };
+		8A9ED41317EC887900885935 /* NewsCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9ED41217EC887900885935 /* NewsCellTests.m */; };
+		8AA0CCD117E884A700B6D964 /* WebServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA0CCD017E884A700B6D964 /* WebServiceTests.m */; };
+		8AA79B5917E9F00900C8AE1A /* RRDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A92AAF917E74971007EB8D9 /* RRDataService.m */; };
+		8AA79B5B17E9F00900C8AE1A /* RRWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A92AAFC17E74995007EB8D9 /* RRWebService.m */; };
+		8AA79B5D17E9F00900C8AE1A /* RRXMLDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A92AB0217E749FB007EB8D9 /* RRXMLDataParser.m */; };
+		8ABB1F3D17F01BAB00BD721C /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB1F3C17F01BAB00BD721C /* AsyncImageView.m */; };
+		8ABB1F4117F01F1500BD721C /* RRNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB1F3F17F01F1500BD721C /* RRNews.m */; };
+		8ABB1F4217F01F1500BD721C /* RRNews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8ABB1F4017F01F1500BD721C /* RRNews.xib */; };
+		8ABB1F4517F01F4100BD721C /* NewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABB1F4417F01F4100BD721C /* NewsTests.m */; };
+		8ABF086E1817B461003EB3D5 /* FakeURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF086D1817B461003EB3D5 /* FakeURLResponse.m */; };
+		8ABF087118195DFC003EB3D5 /* AppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF087018195DFB003EB3D5 /* AppDelegateTests.m */; };
+		8ABF0875181A5660003EB3D5 /* RRNewsList+RRNewsListCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF0873181A5644003EB3D5 /* RRNewsList+RRNewsListCategory.m */; };
+		8ABF0876181A5664003EB3D5 /* RRNewsList+RRNewsListCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF0873181A5644003EB3D5 /* RRNewsList+RRNewsListCategory.m */; };
+		8ABF087C181AB730003EB3D5 /* RRDataService+RRDataServiceCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF087B181AB72F003EB3D5 /* RRDataService+RRDataServiceCategory.m */; };
+		8ABF087D181ABAFF003EB3D5 /* RRDataService+RRDataServiceCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABF087B181AB72F003EB3D5 /* RRDataService+RRDataServiceCategory.m */; };
+		8ADEC48D17E997AD00B30DCB /* XMLDataParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADEC48C17E997AD00B30DCB /* XMLDataParserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A92AADB17E73F79007EB8D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A92AAAE17E73F78007EB8D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A92AAB517E73F78007EB8D9;
+			remoteInfo = RSSReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A92AAB617E73F78007EB8D9 /* RSSReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A92AAB917E73F78007EB8D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A92AABB17E73F78007EB8D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A92AABD17E73F78007EB8D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A92AAC117E73F78007EB8D9 /* RSSReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSSReader-Info.plist"; sourceTree = "<group>"; };
+		8A92AAC317E73F78007EB8D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A92AAC517E73F78007EB8D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A92AAC717E73F78007EB8D9 /* RSSReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSReader-Prefix.pch"; sourceTree = "<group>"; };
+		8A92AAC817E73F78007EB8D9 /* RRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RRAppDelegate.h; sourceTree = "<group>"; };
+		8A92AAC917E73F78007EB8D9 /* RRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RRAppDelegate.m; sourceTree = "<group>"; };
+		8A92AACB17E73F78007EB8D9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8A92AACD17E73F78007EB8D9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8A92AACF17E73F78007EB8D9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8A92AAD617E73F78007EB8D9 /* RSSReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSSReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A92AADF17E73F79007EB8D9 /* RSSReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSSReaderTests-Info.plist"; sourceTree = "<group>"; };
+		8A92AAE117E73F79007EB8D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A92AAE417E73F79007EB8D9 /* NewsListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsListTests.m; sourceTree = "<group>"; };
+		8A92AAEE17E740AE007EB8D9 /* NewsListTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsListTests.h; sourceTree = "<group>"; };
+		8A92AAF117E74140007EB8D9 /* RRNewsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRNewsList.h; sourceTree = "<group>"; };
+		8A92AAF217E74140007EB8D9 /* RRNewsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRNewsList.m; sourceTree = "<group>"; };
+		8A92AAF317E74140007EB8D9 /* RRNewsList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RRNewsList.xib; sourceTree = "<group>"; };
+		8A92AAF817E74971007EB8D9 /* RRDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRDataService.h; sourceTree = "<group>"; };
+		8A92AAF917E74971007EB8D9 /* RRDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRDataService.m; sourceTree = "<group>"; };
+		8A92AAFB17E74995007EB8D9 /* RRWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRWebService.h; sourceTree = "<group>"; };
+		8A92AAFC17E74995007EB8D9 /* RRWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRWebService.m; sourceTree = "<group>"; };
+		8A92AB0117E749FB007EB8D9 /* RRXMLDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRXMLDataParser.h; sourceTree = "<group>"; };
+		8A92AB0217E749FB007EB8D9 /* RRXMLDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RRXMLDataParser.m; path = ../../Utilities/RRXMLDataParser.m; sourceTree = "<group>"; };
+		8A92AB0417E74E41007EB8D9 /* OCMockitoIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMockitoIOS.framework; sourceTree = "<group>"; };
+		8A92AB0617E8565F007EB8D9 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrestIOS.framework; sourceTree = "<group>"; };
+		8A92AB0817E85BEA007EB8D9 /* DataServiceTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataServiceTests.h; sourceTree = "<group>"; };
+		8A92AB0917E85BEA007EB8D9 /* DataServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataServiceTests.m; sourceTree = "<group>"; };
+		8A93600117EC20C7006884A3 /* RRContstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRContstants.h; sourceTree = "<group>"; };
+		8A93600517EC2D8D006884A3 /* RRBaseDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRBaseDataService.h; sourceTree = "<group>"; };
+		8A93600617EC2D8D006884A3 /* RRBaseDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRBaseDataService.m; sourceTree = "<group>"; };
+		8A93600C17EC312D006884A3 /* FakeDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeDataService.h; sourceTree = "<group>"; };
+		8A93600D17EC312D006884A3 /* FakeDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeDataService.m; sourceTree = "<group>"; };
+		8A9ED40C17EC86CC00885935 /* RRNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRNewsCell.h; sourceTree = "<group>"; };
+		8A9ED40D17EC86CC00885935 /* RRNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRNewsCell.m; sourceTree = "<group>"; };
+		8A9ED40E17EC86CC00885935 /* RRNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RRNewsCell.xib; sourceTree = "<group>"; };
+		8A9ED41117EC887900885935 /* NewsCellTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCellTests.h; sourceTree = "<group>"; };
+		8A9ED41217EC887900885935 /* NewsCellTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCellTests.m; sourceTree = "<group>"; };
+		8AA0CCCF17E884A700B6D964 /* WebServiceTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServiceTests.h; sourceTree = "<group>"; };
+		8AA0CCD017E884A700B6D964 /* WebServiceTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServiceTests.m; sourceTree = "<group>"; };
+		8ABB1F3B17F01BAB00BD721C /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		8ABB1F3C17F01BAB00BD721C /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		8ABB1F3E17F01F1500BD721C /* RRNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRNews.h; sourceTree = "<group>"; };
+		8ABB1F3F17F01F1500BD721C /* RRNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRNews.m; sourceTree = "<group>"; };
+		8ABB1F4017F01F1500BD721C /* RRNews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RRNews.xib; sourceTree = "<group>"; };
+		8ABB1F4317F01F4000BD721C /* NewsTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTests.h; sourceTree = "<group>"; };
+		8ABB1F4417F01F4100BD721C /* NewsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTests.m; sourceTree = "<group>"; };
+		8ABF086C1817B461003EB3D5 /* FakeURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeURLResponse.h; sourceTree = "<group>"; };
+		8ABF086D1817B461003EB3D5 /* FakeURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeURLResponse.m; sourceTree = "<group>"; };
+		8ABF086F18195DFB003EB3D5 /* AppDelegateTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegateTests.h; sourceTree = "<group>"; };
+		8ABF087018195DFB003EB3D5 /* AppDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateTests.m; sourceTree = "<group>"; };
+		8ABF0872181A5644003EB3D5 /* RRNewsList+RRNewsListCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RRNewsList+RRNewsListCategory.h"; sourceTree = "<group>"; };
+		8ABF0873181A5644003EB3D5 /* RRNewsList+RRNewsListCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RRNewsList+RRNewsListCategory.m"; sourceTree = "<group>"; };
+		8ABF087A181AB72E003EB3D5 /* RRDataService+RRDataServiceCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RRDataService+RRDataServiceCategory.h"; sourceTree = "<group>"; };
+		8ABF087B181AB72F003EB3D5 /* RRDataService+RRDataServiceCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RRDataService+RRDataServiceCategory.m"; sourceTree = "<group>"; };
+		8ADEC48B17E997AD00B30DCB /* XMLDataParserTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDataParserTests.h; sourceTree = "<group>"; };
+		8ADEC48C17E997AD00B30DCB /* XMLDataParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDataParserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A92AAB317E73F78007EB8D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A92AABA17E73F78007EB8D9 /* UIKit.framework in Frameworks */,
+				8A92AABC17E73F78007EB8D9 /* Foundation.framework in Frameworks */,
+				8A92AABE17E73F78007EB8D9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A92AAD217E73F78007EB8D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A92AAD917E73F78007EB8D9 /* UIKit.framework in Frameworks */,
+				8A92AADA17E73F78007EB8D9 /* Foundation.framework in Frameworks */,
+				8A92AB0517E74E41007EB8D9 /* OCMockitoIOS.framework in Frameworks */,
+				8A92AB0717E8565F007EB8D9 /* OCHamcrestIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A92AAAD17E73F78007EB8D9 = {
+			isa = PBXGroup;
+			children = (
+				8A93600417EC22B6006884A3 /* CustomClasses */,
+				8A92AAEF17E7411D007EB8D9 /* Utilities */,
+				8A92AAF017E7411D007EB8D9 /* ViewControllers */,
+				8A92AABF17E73F78007EB8D9 /* RSSReader */,
+				8A92AADD17E73F79007EB8D9 /* RSSReaderTests */,
+				8A92AAB817E73F78007EB8D9 /* Frameworks */,
+				8A92AAB717E73F78007EB8D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A92AAB717E73F78007EB8D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A92AAB617E73F78007EB8D9 /* RSSReader.app */,
+				8A92AAD617E73F78007EB8D9 /* RSSReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A92AAB817E73F78007EB8D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A92AB0617E8565F007EB8D9 /* OCHamcrestIOS.framework */,
+				8A92AB0417E74E41007EB8D9 /* OCMockitoIOS.framework */,
+				8A92AAB917E73F78007EB8D9 /* UIKit.framework */,
+				8A92AABB17E73F78007EB8D9 /* Foundation.framework */,
+				8A92AABD17E73F78007EB8D9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A92AABF17E73F78007EB8D9 /* RSSReader */ = {
+			isa = PBXGroup;
+			children = (
+				8A92AAC817E73F78007EB8D9 /* RRAppDelegate.h */,
+				8A92AAC917E73F78007EB8D9 /* RRAppDelegate.m */,
+				8A92AAC017E73F78007EB8D9 /* Supporting Files */,
+			);
+			path = RSSReader;
+			sourceTree = "<group>";
+		};
+		8A92AAC017E73F78007EB8D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A92AAC117E73F78007EB8D9 /* RSSReader-Info.plist */,
+				8A92AAC217E73F78007EB8D9 /* InfoPlist.strings */,
+				8A92AAC517E73F78007EB8D9 /* main.m */,
+				8A92AAC717E73F78007EB8D9 /* RSSReader-Prefix.pch */,
+				8A92AACB17E73F78007EB8D9 /* Default.png */,
+				8A92AACD17E73F78007EB8D9 /* Default@2x.png */,
+				8A92AACF17E73F78007EB8D9 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A92AADD17E73F79007EB8D9 /* RSSReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A93600817EC3062006884A3 /* TestCustomClasses */,
+				8A92AB0817E85BEA007EB8D9 /* DataServiceTests.h */,
+				8A92AB0917E85BEA007EB8D9 /* DataServiceTests.m */,
+				8A92AAEE17E740AE007EB8D9 /* NewsListTests.h */,
+				8A92AAE417E73F79007EB8D9 /* NewsListTests.m */,
+				8ABB1F4317F01F4000BD721C /* NewsTests.h */,
+				8ABB1F4417F01F4100BD721C /* NewsTests.m */,
+				8AA0CCCF17E884A700B6D964 /* WebServiceTests.h */,
+				8AA0CCD017E884A700B6D964 /* WebServiceTests.m */,
+				8ADEC48B17E997AD00B30DCB /* XMLDataParserTests.h */,
+				8ADEC48C17E997AD00B30DCB /* XMLDataParserTests.m */,
+				8A9ED41117EC887900885935 /* NewsCellTests.h */,
+				8A9ED41217EC887900885935 /* NewsCellTests.m */,
+				8ABF086F18195DFB003EB3D5 /* AppDelegateTests.h */,
+				8ABF087018195DFB003EB3D5 /* AppDelegateTests.m */,
+				8A92AADE17E73F79007EB8D9 /* Supporting Files */,
+			);
+			path = RSSReaderTests;
+			sourceTree = "<group>";
+		};
+		8A92AADE17E73F79007EB8D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A92AADF17E73F79007EB8D9 /* RSSReaderTests-Info.plist */,
+				8A92AAE017E73F79007EB8D9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A92AAEF17E7411D007EB8D9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8ABB1F3A17F01BAB00BD721C /* AsyncImageView */,
+				8A92AAF817E74971007EB8D9 /* RRDataService.h */,
+				8A92AAF917E74971007EB8D9 /* RRDataService.m */,
+				8A92AAFB17E74995007EB8D9 /* RRWebService.h */,
+				8A92AAFC17E74995007EB8D9 /* RRWebService.m */,
+				8A92AB0117E749FB007EB8D9 /* RRXMLDataParser.h */,
+				8A93600117EC20C7006884A3 /* RRContstants.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8A92AAF017E7411D007EB8D9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A92AAF117E74140007EB8D9 /* RRNewsList.h */,
+				8A92AAF217E74140007EB8D9 /* RRNewsList.m */,
+				8A92AAF317E74140007EB8D9 /* RRNewsList.xib */,
+				8ABB1F3E17F01F1500BD721C /* RRNews.h */,
+				8ABB1F3F17F01F1500BD721C /* RRNews.m */,
+				8ABB1F4017F01F1500BD721C /* RRNews.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8A93600417EC22B6006884A3 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				8A93600517EC2D8D006884A3 /* RRBaseDataService.h */,
+				8A93600617EC2D8D006884A3 /* RRBaseDataService.m */,
+				8A9ED40C17EC86CC00885935 /* RRNewsCell.h */,
+				8A9ED40D17EC86CC00885935 /* RRNewsCell.m */,
+				8A9ED40E17EC86CC00885935 /* RRNewsCell.xib */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		8A93600817EC3062006884A3 /* TestCustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				8ABF086C1817B461003EB3D5 /* FakeURLResponse.h */,
+				8ABF086D1817B461003EB3D5 /* FakeURLResponse.m */,
+				8A93600C17EC312D006884A3 /* FakeDataService.h */,
+				8A93600D17EC312D006884A3 /* FakeDataService.m */,
+				8ABF0872181A5644003EB3D5 /* RRNewsList+RRNewsListCategory.h */,
+				8ABF0873181A5644003EB3D5 /* RRNewsList+RRNewsListCategory.m */,
+				8A92AB0217E749FB007EB8D9 /* RRXMLDataParser.m */,
+				8ABF087A181AB72E003EB3D5 /* RRDataService+RRDataServiceCategory.h */,
+				8ABF087B181AB72F003EB3D5 /* RRDataService+RRDataServiceCategory.m */,
+			);
+			path = TestCustomClasses;
+			sourceTree = "<group>";
+		};
+		8ABB1F3A17F01BAB00BD721C /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				8ABB1F3B17F01BAB00BD721C /* AsyncImageView.h */,
+				8ABB1F3C17F01BAB00BD721C /* AsyncImageView.m */,
+			);
+			path = AsyncImageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A92AAB517E73F78007EB8D9 /* RSSReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A92AAE817E73F79007EB8D9 /* Build configuration list for PBXNativeTarget "RSSReader" */;
+			buildPhases = (
+				8A92AAB217E73F78007EB8D9 /* Sources */,
+				8A92AAB317E73F78007EB8D9 /* Frameworks */,
+				8A92AAB417E73F78007EB8D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSReader;
+			productName = RSSReader;
+			productReference = 8A92AAB617E73F78007EB8D9 /* RSSReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A92AAD517E73F78007EB8D9 /* RSSReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A92AAEB17E73F79007EB8D9 /* Build configuration list for PBXNativeTarget "RSSReaderTests" */;
+			buildPhases = (
+				8A92AAD117E73F78007EB8D9 /* Sources */,
+				8A92AAD217E73F78007EB8D9 /* Frameworks */,
+				8A92AAD317E73F78007EB8D9 /* Resources */,
+				8A92AAD417E73F78007EB8D9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A92AADC17E73F79007EB8D9 /* PBXTargetDependency */,
+			);
+			name = RSSReaderTests;
+			productName = RSSReaderTests;
+			productReference = 8A92AAD617E73F78007EB8D9 /* RSSReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A92AAAE17E73F78007EB8D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Alexey;
+			};
+			buildConfigurationList = 8A92AAB117E73F78007EB8D9 /* Build configuration list for PBXProject "RSSReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A92AAAD17E73F78007EB8D9;
+			productRefGroup = 8A92AAB717E73F78007EB8D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A92AAB517E73F78007EB8D9 /* RSSReader */,
+				8A92AAD517E73F78007EB8D9 /* RSSReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A92AAB417E73F78007EB8D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A92AAC417E73F78007EB8D9 /* InfoPlist.strings in Resources */,
+				8A92AACC17E73F78007EB8D9 /* Default.png in Resources */,
+				8A92AACE17E73F78007EB8D9 /* Default@2x.png in Resources */,
+				8A92AAD017E73F78007EB8D9 /* Default-568h@2x.png in Resources */,
+				8A92AAF717E74243007EB8D9 /* RRNewsList.xib in Resources */,
+				8A9ED41017EC86CC00885935 /* RRNewsCell.xib in Resources */,
+				8ABB1F4217F01F1500BD721C /* RRNews.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A92AAD317E73F78007EB8D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A92AAE217E73F79007EB8D9 /* InfoPlist.strings in Resources */,
+				8A92AAF517E74140007EB8D9 /* RRNewsList.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A92AAD417E73F78007EB8D9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A92AAB217E73F78007EB8D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA79B5917E9F00900C8AE1A /* RRDataService.m in Sources */,
+				8AA79B5B17E9F00900C8AE1A /* RRWebService.m in Sources */,
+				8AA79B5D17E9F00900C8AE1A /* RRXMLDataParser.m in Sources */,
+				8A92AAC617E73F78007EB8D9 /* main.m in Sources */,
+				8A92AACA17E73F78007EB8D9 /* RRAppDelegate.m in Sources */,
+				8A92AAF617E74229007EB8D9 /* RRNewsList.m in Sources */,
+				8A93600717EC2D8D006884A3 /* RRBaseDataService.m in Sources */,
+				8A9ED40F17EC86CC00885935 /* RRNewsCell.m in Sources */,
+				8ABB1F3D17F01BAB00BD721C /* AsyncImageView.m in Sources */,
+				8ABB1F4117F01F1500BD721C /* RRNews.m in Sources */,
+				8ABF0875181A5660003EB3D5 /* RRNewsList+RRNewsListCategory.m in Sources */,
+				8ABF087D181ABAFF003EB3D5 /* RRDataService+RRDataServiceCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A92AAD117E73F78007EB8D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A92AAE517E73F79007EB8D9 /* NewsListTests.m in Sources */,
+				8A92AAF417E74140007EB8D9 /* RRNewsList.m in Sources */,
+				8A92AAFA17E74971007EB8D9 /* RRDataService.m in Sources */,
+				8A92AAFD17E74995007EB8D9 /* RRWebService.m in Sources */,
+				8A92AB0317E749FB007EB8D9 /* RRXMLDataParser.m in Sources */,
+				8A92AB0A17E85BEA007EB8D9 /* DataServiceTests.m in Sources */,
+				8AA0CCD117E884A700B6D964 /* WebServiceTests.m in Sources */,
+				8ADEC48D17E997AD00B30DCB /* XMLDataParserTests.m in Sources */,
+				8A93600E17EC312D006884A3 /* FakeDataService.m in Sources */,
+				8A9ED41317EC887900885935 /* NewsCellTests.m in Sources */,
+				8ABB1F4517F01F4100BD721C /* NewsTests.m in Sources */,
+				8ABF086E1817B461003EB3D5 /* FakeURLResponse.m in Sources */,
+				8ABF087118195DFC003EB3D5 /* AppDelegateTests.m in Sources */,
+				8ABF0876181A5664003EB3D5 /* RRNewsList+RRNewsListCategory.m in Sources */,
+				8ABF087C181AB730003EB3D5 /* RRDataService+RRDataServiceCategory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A92AADC17E73F79007EB8D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A92AAB517E73F78007EB8D9 /* RSSReader */;
+			targetProxy = 8A92AADB17E73F79007EB8D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A92AAC217E73F78007EB8D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A92AAC317E73F78007EB8D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A92AAE017E73F79007EB8D9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A92AAE117E73F79007EB8D9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A92AAE617E73F79007EB8D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A92AAE717E73F79007EB8D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A92AAE917E73F79007EB8D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSReader/RSSReader-Prefix.pch";
+				INFOPLIST_FILE = "RSSReader/RSSReader-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCHamcrestIOS.framework/Versions/A\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A92AAEA17E73F79007EB8D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSReader/RSSReader-Prefix.pch";
+				INFOPLIST_FILE = "RSSReader/RSSReader-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCHamcrestIOS.framework/Versions/A\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8A92AAEC17E73F79007EB8D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSSReader.app/RSSReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSReader/RSSReader-Prefix.pch";
+				INFOPLIST_FILE = "RSSReaderTests/RSSReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		8A92AAED17E73F79007EB8D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSSReader.app/RSSReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSReader/RSSReader-Prefix.pch";
+				INFOPLIST_FILE = "RSSReaderTests/RSSReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A92AAB117E73F78007EB8D9 /* Build configuration list for PBXProject "RSSReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A92AAE617E73F79007EB8D9 /* Debug */,
+				8A92AAE717E73F79007EB8D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A92AAE817E73F79007EB8D9 /* Build configuration list for PBXNativeTarget "RSSReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A92AAE917E73F79007EB8D9 /* Debug */,
+				8A92AAEA17E73F79007EB8D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A92AAEB17E73F79007EB8D9 /* Build configuration list for PBXNativeTarget "RSSReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A92AAEC17E73F79007EB8D9 /* Debug */,
+				8A92AAED17E73F79007EB8D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A92AAAE17E73F78007EB8D9 /* Project object */;
+}

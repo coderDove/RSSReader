@@ -1,0 +1,71 @@
+10
+
+dir
+4337
+svn://tfs10/ios/RSSReader/trunk/RSSReader.xcodeproj
+svn://tfs10/ios
+
+
+
+2013-11-25T09:45:28.681295Z
+4129
+anton.golub
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+17b3bd81-f8c7-2c4e-a7e9-4898d71984a1
+
+project.pbxproj
+file
+
+
+
+
+2013-11-22T11:20:36.000000Z
+07733032664eb231e38c69d7e7454257
+2013-11-22T11:19:49.760440Z
+4113
+oleksii.iakushev
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+36611
+
+project.xcworkspace
+dir
+
+xcshareddata
+dir
+
+xcuserdata
+dir
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[RRNews buttonDoneClick:]:RRNews.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegateTests testRootViewControllerContainsNavigationController]:AppDelegateTests.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sut.window.rootViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NewsListTests loadFirstCell]:NewsListTests.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NewsListTests testCellTitleLabelTextIsNotEmpty]:NewsListTests.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[RRBaseDataService sharedInstance]:RRBaseDataService.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RRNews viewDidLoad]:RRNews.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
