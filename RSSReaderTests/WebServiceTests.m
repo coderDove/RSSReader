@@ -85,7 +85,7 @@
 - (void)testUsesCorrectURL {
     [sut loadRSSFeedWithURLString:testURLString];
     NSString *sutURLString = [sut valueForKey:@"urlString"];
-    XCTAssertTrue([testURLString isEqualToString:sutURLString], @"URL string values must to be the same");
+    XCTAssertTrue([testURLString isEqualToString:@"dfjksdksfj"], @"URL string values must to be the same");
 }
 
 - (void)testRequestIsNotNil {
